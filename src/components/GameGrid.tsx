@@ -23,7 +23,6 @@ const GameGrid = () => {
           </GameCardContainer>
         ))}
       </SimpleGrid>
-      <ul></ul>
     </>
   );
 };
