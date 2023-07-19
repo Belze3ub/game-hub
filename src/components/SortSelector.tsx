@@ -18,8 +18,6 @@ const SortSelector = ({selectedSort, onSelectSort}: Props) => {
 
   const currentSortOrder = sortOrders.find((order) => order.value === selectedSort);
 
-  console.log(currentSortOrder?.label);
-  
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<BsChevronDown />}>
