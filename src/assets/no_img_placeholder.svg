@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="96" height="64">
+	<title>forge-icon-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #000000;stroke-width: 3.7 } 
+	</style>
+	<path id="Layer" class="s0" d="m13.7 13.2c0-2.2 1.8-4 4-4h60.6c2.2 0 4 1.8 4 4v37.6c0 2.3-1.8 4-4 4h-60.6c-2.2 0-4-1.7-4-4z"/>
+	<path id="Layer" class="s0" d="m13.7 42l17.3-9.8 13.6 8.2 20.3-16.9 17.3 16.9"/>
+	<path id="Layer" class="s0" d="m29.6 23.3c-3.2 0-5.9-1.7-5.9-3.9 0-2.2 2.7-4 5.9-4 3.3 0 5.9 1.8 5.9 4 0 2.2-2.6 3.9-5.9 3.9z"/>
+</svg>
