@@ -12,7 +12,7 @@ interface Props {
 
 const PlatformIconList = ({platforms}: Props) => {
 
-  const iconMap: {[key: string]: IconType} = {
+  const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,
@@ -22,8 +22,7 @@ const PlatformIconList = ({platforms}: Props) => {
     android: FaAndroid,
     ios: MdPhoneIphone,
     web: BsGlobe,
-
-  }
+  };
   
   return (
     <HStack marginY={'5px'}>
