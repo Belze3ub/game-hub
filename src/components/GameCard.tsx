@@ -3,7 +3,6 @@ import { Game } from '../hooks/useGames';
 import PlatformIconList from './PlatformIconList';
 import Score from './CriticScore';
 import getCroppedImageUrl from '../services/image-url';
-import { BiTargetLock } from 'react-icons/bi';
 import Emoji from './Emoji';
 
 export interface Props {

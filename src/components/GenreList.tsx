@@ -2,7 +2,6 @@ import { Button, HStack, Heading, Image, List, ListItem } from '@chakra-ui/react
 import useGenres, { Genre } from '../hooks/useGenres';
 import getCroppedImageUrl from '../services/image-url';
 import { Spinner } from '@chakra-ui/react';
-import GameHeading from './GameHeading';
 
 interface Props {
   onSelectGenre: (genre: Genre) => void;
