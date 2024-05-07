@@ -31,7 +31,7 @@ const GameGrid = () => {
         </p>
       }
     >
-      <SimpleGrid columns={[1, null, 2, 3, 4]} spacing={5}>
+      <SimpleGrid columns={[1, null, 2, 3, 4]} spacing={5} margin={5}>
         {isLoading &&
           skeletons.map((skeleton) => (
             <GameCardContainer key={skeleton}>
@@ -41,9 +41,9 @@ const GameGrid = () => {
         {data?.pages.map((page, index) => (
           <React.Fragment key={index}>
             {page.results.map((game) => (
-              <GameCardContainer key={game.id}>
-                <GameCard game={game}></GameCard>
-              </GameCardContainer>
+                <GameCardContainer key={game.id}>
+                  <GameCard game={game}></GameCard>
+                </GameCardContainer>
             ))}
           </React.Fragment>
         ))}

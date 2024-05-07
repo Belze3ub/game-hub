@@ -22,8 +22,8 @@ const HomePage = () => {
           <GenreList />
         </GridItem>
       </Show>
-      <GridItem area="main" paddingX={5}>
-        <Box>
+      <GridItem area="main">
+        <Box marginX={5}>
           <GameHeading />
           <Flex marginBottom={2}>
             <Box marginRight={2}>
