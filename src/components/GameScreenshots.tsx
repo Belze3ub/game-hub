@@ -11,7 +11,7 @@ const GameScreenshots = ({ gameId }: Props) => {
   if (error) throw error;
   const screenshots = data?.results;
   if (!screenshots || screenshots.length === 0)
-    return <Text>No screenshots available.</Text>;
+    return null;
   return (
     <SimpleGrid columns={{ base: 1, md: 2 }} gap={2} marginTop={2}>
       {screenshots.map((screenshot) => (
