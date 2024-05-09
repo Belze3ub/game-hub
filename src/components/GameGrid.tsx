@@ -1,8 +1,8 @@
 import { SimpleGrid, Spinner, Text } from '@chakra-ui/react';
 import React from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import useGames from '../hooks/useGames';
 import Game from '../entities/Game';
+import useGames from '../hooks/useGames';
 import { FetchResponse } from '../services/api-client';
 import GameCard from './GameCard';
 import GameCardContainer from './GameCardContainer';
@@ -24,10 +24,14 @@ const GameGrid = () => {
       dataLength={fetchedGamesCount}
       next={fetchNextPage}
       hasMore={hasNextPage}
-      loader={<Spinner />}
+      loader={
+        <div style={{ textAlign: 'center' }}>
+          <Spinner />
+        </div>
+      }
       endMessage={
-        <p style={{ textAlign: 'center' }}>
-          <b>Yay! You have seen it all</b>
+        <p style={{ textAlign: 'center', fontWeight: 900 }}>
+          Yay! You have seen it all
         </p>
       }
     >
